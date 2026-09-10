@@ -12,6 +12,7 @@ public class Exercicio10 {
 		int mes = 1;
 		
 		do {
+			
 			System.out.println("Mês " + mes);
 			
 			salarioC = salarioC + (salarioC * 0.02);
