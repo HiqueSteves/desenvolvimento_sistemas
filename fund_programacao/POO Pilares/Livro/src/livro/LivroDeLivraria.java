@@ -30,6 +30,7 @@ public class LivroDeLivraria extends Livro {
 	}
 
 	public void dadosBibliograficos() {
+		super.exibirDados();
 		System.out.println("Preço: " + preco);
 		System.out.println("Quantidade disponivel em estoque: " + quantidadeEstoque);
 
